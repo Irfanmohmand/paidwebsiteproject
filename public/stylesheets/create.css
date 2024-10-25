@@ -1,0 +1,17 @@
+.create-page {
+  box-shadow: 7px 11px 11px 7px black;
+  border-radius: 10px;
+}
+
+.order-text {
+  font-weight: bold;
+  background: linear-gradient(90deg, rgb(36, 206, 229), #3847eb, rgb(236, 67, 67));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}

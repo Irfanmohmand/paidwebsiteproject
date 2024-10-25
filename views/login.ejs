@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/stylesheets/create.css">
+</head>
+
+<body>
+
+  <div class="createpage w-full h-screen bg-zinc-900 flex justify-center items-center">
+    <div class="max-w-md mx-auto p-4 create-page">
+      <h2 class="text-xl font-bold mb-4 text-center mb-10 md:px-[40px] px-[5px]">Login your account</h2>
+      <form action="/login" method="post">
+        <div class="grid grid-cols-1  gap-10">
+
+          <div>
+            <input type="text" id="first-name" name="email"
+              class="mt-1 block w-full outline-none rounded-md shadow-sm p-2 bg-zinc-900 border-b-2 border-blue-500"
+              required placeholder="Email">
+          </div>
+          <div>
+            <input type="password" id="first-name" name="password"
+              class="mt-1 block w-full outline-none rounded-md shadow-sm p-2 bg-zinc-900 border-b-2 border-blue-500"
+              required placeholder="Password">
+          </div>
+        </div>
+        <input type="submit" value="Log in"
+          class="mt-4 w-[140px] relative bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-2  rounded-md cursor-pointer hover:bg-blue-700 mt-[50px] mx-auto md:ml-[58px] ml-[40px]">
+      </form>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

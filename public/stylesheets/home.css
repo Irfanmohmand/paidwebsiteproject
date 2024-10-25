@@ -1,0 +1,17 @@
+.digital {
+  font-weight: bold;
+  background: linear-gradient(90deg, #eb2d2d, #3847eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.paid {
+  font-weight: bold;
+  background: linear-gradient(90deg, #eb2d2d, #3847eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
